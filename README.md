@@ -53,3 +53,5 @@ The preprocessing steps include:
 - Click on the Classify button.
 - The app will display whether the email is Spam or Ham.
 - Use the sidebar to view the dataset and plot the spam vs ham distribution.
+ ## 🤝 Contributing
+Feel free to fork the project, create feature branches, and submit pull requests.
