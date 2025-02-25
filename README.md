@@ -10,11 +10,11 @@ The Email Spam Classification App is a machine learning project designed to clas
   
 ## 🏃 How to Run the App
 1. **Clone the Repository**:
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+- git clone https://github.com/your-username/your-repo.git
+- cd your-repo
 2. **Install the Required Libraries**:
 Ensure you have Python installed, then run:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 3. **Run the Streamlit App**:
 streamlit run spamDetector.py
 4. **View the App**:
