@@ -1,10 +1,12 @@
 # 📧 Spam Email Classification App
-This is a Machine Learning Web Application built with Streamlit to classify emails as Spam or Ham. The app uses a Naive Bayes classifier trained on a labeled dataset and allows users to input email content to check whether it is spam or not.
+## 🚀 Overview
+The Email Spam Classification App is a machine learning project designed to classify emails as Spam or Ham (Not Spam) using a Naive Bayes Classifier. Built with Streamlit, the app provides a simple and interactive interface for users to input email content and receive instant classification results.
 
 ## ✨ Features
 - 🌟 **Real-time Spam Detection**: Classifies emails as spam or ham instantly.
-- 📊 **Visualization**: Displays spam vs ham distribution.
-- 📚 **Inputs**: Text area for user input with placeholder text.
+- 📊 **Visualization**: Displays a bar plot showing the distribution of spam vs ham emails.
+- 📄 **Dataset Preview**: Offers a quick look at the raw dataset used for training.
+- 🎨 **Interactive UI** — Built with Streamlit for a smooth user experience.
   
 ## 🏃 How to Run the App
 1. **Clone the Repository**:
@@ -31,7 +33,7 @@ The preprocessing steps include:
 - Naive Bayes Classifier (from Scikit-learn)
 - The trained model (spam.pkl) and vectorizer (vectorizer.pkl) are loaded using pickle.
 
-## 📦 Project Structure
+## 🏗️ Project Structure
 ```
 📁 EMAIL-SPAM-DETECTION
 │-- 📊 spam.csv                  # Dataset used for training and testing
