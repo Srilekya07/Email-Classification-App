@@ -33,7 +33,6 @@ The preprocessing steps include:
 
 ## 📦 Project Structure
 ```
-.
 📁 EMAIL-SPAM-DETECTION
 │-- 📊 spam.csv                  # Dataset used for training and testing
 │-- 📦 spam.pkl                  # Trained Naive Bayes model
