@@ -40,7 +40,7 @@ The preprocessing steps include:
 │-- 📦 spam.pkl                  # Trained Naive Bayes model
 │-- 📦 vectorizer.pkl            # Fitted CountVectorizer for text transformation
 │-- 🏃 spamDetector.py           # Streamlit app for email classification
-│-- 📓 NaiveBayesClassifier.ipynb # Jupyter notebook for model training and evaluation
+│-- 📓 email-spamDetector.ipynb # Jupyter notebook for model training and evaluation
 │-- 📜 requirements.txt          # List of required libraries for the project
 │-- 📄 README.md                 # Project documentation and usage instructions
 ```
