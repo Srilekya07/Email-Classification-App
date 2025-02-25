@@ -5,6 +5,7 @@ This is a Machine Learning Web Application built with Streamlit to classify emai
 - 🌟 **Real-time Spam Detection**: Classifies emails as spam or ham instantly.
 - 📊 **Visualization**: Displays spam vs ham distribution.
 - 📚 **Inputs**: Text area for user input with placeholder text.
+  
 ## 🏃 How to Run the App
 1. **Clone the Repository**:
 git clone https://github.com/your-username/your-repo.git
@@ -17,6 +18,7 @@ streamlit run spamDetector.py
 4. **View the App**:
 The app will open automatically in your browser at:
 http://localhost:8501
+
 ## 🧪 Dataset
 The app uses a Spam/Ham Dataset (spam.csv), which contains labeled email data:
 - ham — Non-spam emails (label = 0)
@@ -24,19 +26,23 @@ The app uses a Spam/Ham Dataset (spam.csv), which contains labeled email data:
 The preprocessing steps include:
 - Dropping unnecessary columns
 - Converting labels (ham/spam) to numeric values (0/1)
+  
 ## ⚡ Model Used
 - Naive Bayes Classifier (from Scikit-learn)
 - The trained model (spam.pkl) and vectorizer (vectorizer.pkl) are loaded using pickle.
 
 ## 📦 Project Structure
+```
+.
 📁 EMAIL-SPAM-DETECTION
-│-- spam.csv                  # Dataset used for training
-│-- spam.pkl                  # Trained Naive Bayes model
-│-- vectorizer.pkl            # Fitted CountVectorizer
-│-- spamDetector.py           # Streamlit app
-│-- NaiveBayesClassifier.ipynb # Jupyter notebook for model training
-│-- requirements.txt          # Required libraries
-│-- README.md                 # Project documentation
+│-- 📊 spam.csv                  # Dataset used for training and testing
+│-- 📦 spam.pkl                  # Trained Naive Bayes model
+│-- 📦 vectorizer.pkl            # Fitted CountVectorizer for text transformation
+│-- 🏃 spamDetector.py           # Streamlit app for email classification
+│-- 📓 NaiveBayesClassifier.ipynb # Jupyter notebook for model training and evaluation
+│-- 📜 requirements.txt          # List of required libraries for the project
+│-- 📄 README.md                 # Project documentation and usage instructions
+```
 ## 🚀 Technologies Used
 - Python
 - Streamlit
