@@ -7,19 +7,6 @@ The Email Spam Classification App is a machine learning project designed to clas
 - 📊 **Visualization**: Displays a bar plot showing the distribution of spam vs ham emails.
 - 📄 **Dataset Preview**: Offers a quick look at the raw dataset used for training.
 - 🎨 **Interactive UI** — Built with Streamlit for a smooth user experience.
-  
-## 🏃 How to Run the App
-1. **Clone the Repository**:
-- git clone https://github.com/your-username/your-repo.git
-- cd your-repo
-2. **Install the Required Libraries**:
-Ensure you have Python installed, then run:
-- pip install -r requirements.txt
-3. **Run the Streamlit App**:
-streamlit run spamDetector.py
-4. **View the App**:
-The app will open automatically in your browser at:
-http://localhost:8501
 
 ## 🧪 Dataset
 The app uses a Spam/Ham Dataset (spam.csv), which contains labeled email data:
