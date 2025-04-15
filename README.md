@@ -39,8 +39,20 @@ The preprocessing steps include:
 - Matplotlib & Seaborn (for visualization)
 ## 🏷️ How to Use the App
 - Input email text in the text area under Email Classification.
-- Click on the Classify button.
+- Click on the **Classify** button.
 - The app will display whether the email is Spam or Ham.
 - Use the sidebar to view the dataset and plot the spam vs ham distribution.
+## 🔍 Sample Predictions
+Here are a few examples of how the app classifies emails:
+| Email Text                                              | Prediction |
+|---------------------------------------------------------|------------|
+| "Congratulations! You've won a $1000 Walmart gift card" | Spam       |
+| "Meeting rescheduled to 3 PM tomorrow."                 | Ham        |
+| "Click here to claim your free cruise!"                 | Spam       |
+| "Please find attached the report for this week."        | Ham        |
+## 🖼️ App Preview
+
+### 📨 Email Classification Output
+![Prediction Example](images/prediction_example.png)
  ## 🤝 Contributing
 Feel free to fork the project, create feature branches, and submit pull requests.
