@@ -54,5 +54,11 @@ Here are a few examples of how the app classifies emails:
 
 ### 📨 Email Classification Output
 ![Prediction Example](images/prediction_example.png)
+
+### 📊 Spam vs Ham Distribution
+![Spam vs Ham](images/spam_distribution.png)
+
+### 🗃️ Dataset Preview
+![Dataset Preview](images/dataset_preview.png)
  ## 🤝 Contributing
 Feel free to fork the project, create feature branches, and submit pull requests.
