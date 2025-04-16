@@ -53,10 +53,10 @@ Here are a few examples of how the app classifies emails:
 ## 🖼️ App Preview
 
 ### 📨 Email Classification Output
-![Prediction Example](images/prediction_example.png)
+![Prediction Example](images/main.png)
 
 ### 📊 Spam vs Ham Distribution
-![Spam vs Ham](images/spam_distribution.png)
+![Spam vs Ham](images/distribution.png)
 
 ### 🗃️ Dataset Preview
 ![Dataset Preview](images/dataset_preview.png)
